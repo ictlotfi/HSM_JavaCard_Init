@@ -12,6 +12,9 @@ public class SimpleAPDU {
 //private static MyAPDU m_apdu;
     public static void main(String[] args) {
         try {
+
+		// IMPORTANT: the default values are just to simplify the implementation.
+
             	MyAPDU m_apdu= new MyAPDU();
 	    	// set the default value for the PUK
             	m_apdu.setPUK();
